@@ -10,6 +10,7 @@ env/
 # Local archives and dev scripts
 *.zip
 /_local_dev_scripts/
+/cloud_bakery_ui_visualizer/
 /cupcake_order_agent/cupcake_agent.py
 /cupcake_order_agent/dag_config.py
 /cupcake_order_agent/deploy_cupcake_agent.py
