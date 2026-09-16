@@ -1,0 +1,9 @@
+{
+  "name": "884b8d3d-61f4-47fb-b054-409c609131d6",
+  "pythonFunction": {
+    "name": "check_bakery_inventory",
+    "pythonCode": "tools/check_bakery_inventory/python_function/python_code.py",
+    "description": "Internal task to check fresh oven batch times for a flavor and quantity."
+  },
+  "displayName": "check_bakery_inventory"
+}

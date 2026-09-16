@@ -1,0 +1,9 @@
+{
+  "name": "eb78d193-1e55-48ba-aaae-47ffd25b6939",
+  "pythonFunction": {
+    "name": "place_cupcake_order",
+    "pythonCode": "tools/place_cupcake_order/python_function/python_code.py",
+    "description": "Internal task to place the final cupcake order."
+  },
+  "displayName": "place_cupcake_order"
+}

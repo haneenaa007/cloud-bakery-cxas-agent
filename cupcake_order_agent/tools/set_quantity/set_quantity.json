@@ -1,0 +1,9 @@
+{
+  "name": "b38ea723-ca8b-42a2-9b2a-7b8c1bd60c18",
+  "pythonFunction": {
+    "name": "set_quantity",
+    "pythonCode": "tools/set_quantity/python_function/python_code.py",
+    "description": "Record total number of cupcakes ordered as an integer.\n\nCall immediately when the user mentions how many cupcakes or boxes they want."
+  },
+  "displayName": "set_quantity"
+}

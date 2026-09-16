@@ -1,0 +1,9 @@
+{
+  "name": "355808d7-82e0-4362-bd27-8edac10a4960",
+  "pythonFunction": {
+    "name": "set_frosting",
+    "pythonCode": "tools/set_frosting/python_function/python_code.py",
+    "description": "Record frosting style (CREAM_CHEESE, BUTTERCREAM, CHOCOLATE_GANACHE).\n\nCall immediately when the user mentions their preferred frosting."
+  },
+  "displayName": "set_frosting"
+}

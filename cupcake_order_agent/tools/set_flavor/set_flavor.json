@@ -1,0 +1,9 @@
+{
+  "name": "ff00d3c7-6fda-4e53-baa3-48bc53faad31",
+  "pythonFunction": {
+    "name": "set_flavor",
+    "pythonCode": "tools/set_flavor/python_function/python_code.py",
+    "description": "Record cupcake flavor in uppercase enum format (RED_VELVET, VANILLA, DARK_CHOCOLATE, SALTED_CARAMEL).\n\nCall immediately when the user mentions a cupcake flavor."
+  },
+  "displayName": "set_flavor"
+}

@@ -1,0 +1,32 @@
+# Python & OS artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.DS_Store
+
+# Local archives and dev scripts
+*.zip
+/_local_dev_scripts/
+/cupcake_order_agent/cupcake_agent.py
+/cupcake_order_agent/dag_config.py
+/cupcake_order_agent/deploy_cupcake_agent.py
+/cupcake_order_agent/setters.py
+/cupcake_order_agent/test_cupcake_agent.py
+
+# Root-only scratch, SDK, and legacy files (keep only README.md, cupcake_order_agent/, and slot_filling_resources/)
+/cxas-scrapi/
+/flight_booking_agent/
+/deterministic_slot_filling_accelerator/
+/convert_skills_to_pdf.py
+/flight-booking-agent-prd.md
+/slot-filling-prd.md
+/cloud-bakery-prd.md
+/slot-filling-implementation-skills.md
+/slot-filling-migration-skills.md
+/slot-filling-medium-article.md
+/slot-filling-medium-article-plan.md
+/slot-filling-medium-article-v1-technical.md
+/slot-filling-medium-blog

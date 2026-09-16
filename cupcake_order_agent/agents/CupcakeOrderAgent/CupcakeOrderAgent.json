@@ -1,0 +1,16 @@
+{
+  "name": "cupcake_order_root_agent",
+  "displayName": "CupcakeOrderAgent",
+  "instruction": "agents/CupcakeOrderAgent/instruction.txt",
+  "tools": ["set_customer_name", "set_flavor", "set_frosting", "set_pickup_time", "set_quantity"],
+  "beforeModelCallbacks": [{
+    "pythonCode": "agents/CupcakeOrderAgent/before_model_callbacks/before_model_callbacks_01/python_code.py",
+    "description": "Deterministic DAG State Machine Callback for Cloud Bakery"
+  }],
+  "afterToolCallbacks": [{
+    "pythonCode": "agents/CupcakeOrderAgent/after_tool_callbacks/after_tool_callbacks_01/python_code.py",
+    "description": "Setter State Sync \u0026 Branch Pivot Purging Callback for Cloud Bakery"
+  }],
+  "llmAgent": {
+  }
+}

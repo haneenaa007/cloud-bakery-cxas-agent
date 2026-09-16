@@ -1,0 +1,9 @@
+{
+  "name": "7019b646-9a8f-4de3-b9eb-8bc3e3d05bbb",
+  "pythonFunction": {
+    "name": "set_customer_name",
+    "pythonCode": "tools/set_customer_name/python_function/python_code.py",
+    "description": "Record customer name for the pickup order box.\n\nCall immediately when the user provides their name."
+  },
+  "displayName": "set_customer_name"
+}

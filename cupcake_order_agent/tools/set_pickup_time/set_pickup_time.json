@@ -1,0 +1,9 @@
+{
+  "name": "cbec502d-7f0f-4c45-bf77-d665646d9aba",
+  "pythonFunction": {
+    "name": "set_pickup_time",
+    "pythonCode": "tools/set_pickup_time/python_function/python_code.py",
+    "description": "Record requested pickup time slot from available oven batches (\u00272:00 PM\u0027, \u00274:30 PM\u0027, \u00276:00 PM\u0027).\n\nCall immediately when the user selects or states a pickup time."
+  },
+  "displayName": "set_pickup_time"
+}
