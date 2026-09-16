@@ -32,10 +32,16 @@ This repository contains the complete **Cloud Bakery** example agent deployed in
 │       ├── check_bakery_inventory/
 │       └── place_cupcake_order/
 │
-└── slot_filling_resources/                    # 📚 Slot-Filling Skills & Architecture Guides
-    ├── slot-filling-implementation-skills.md  # Implementation Best Practices & Developer Guide
-    └── slot-filling-migration-skills.md       # Legacy-to-CXAS Migration Playbook
+├── slot_filling_resources/                    # 📚 Slot-Filling Skills & Architecture Guides
+│   ├── slot-filling-implementation-skills.md  # Implementation Best Practices & Developer Guide
+│   └── slot-filling-migration-skills.md       # Legacy-to-CXAS Migration Playbook
+│
+└── diagrams/                                  # 🎨 Architecture & DAG Diagrams
+    ├── cxas_slot_filling_architecture.jpg     # Mouth/Ears (Gemini), Hands (Setters) & Brain (Callbacks)
+    └── cloud_bakery_dag_diagram.jpg           # Declarative Slot-Filling DAG Workflow
 ```
+
+![Deterministic Slot-Filling Architecture on Google Cloud CXAS](./diagrams/cxas_slot_filling_architecture.jpg)
 
 ---
 
