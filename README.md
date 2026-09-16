@@ -1,4 +1,4 @@
-# 🧁 Deterministic Slot-Filling Agents on Google Cloud CXAS
+# 🧁 Cloud Bakery: Deterministic Slot-Filling Agent on Google Cloud CXAS
 
 Welcome to the example repository for the Medium article:  
 **"Slot-Filling Framework: Guide to Building Deterministic Agents on Google Cloud CXAS"**
@@ -11,7 +11,6 @@ This repository contains the complete **Cloud Bakery** example agent deployed in
 
 ```text
 ├── cupcake_order_agent/                       # 🧁 Cloud Bakery CXAS Agent Package
-│   ├── README.md                              # Architecture guide, import steps & interactive test cases
 │   ├── cloud_bakery_prd.md                    # Product Requirements Document (PRD)
 │   ├── app.json                               # CXAS Application configuration
 │   ├── pythonEnvFiles/
@@ -24,7 +23,7 @@ This repository contains the complete **Cloud Bakery** example agent deployed in
 │   │       │   └── before_model_callbacks_01/python_code.py
 │   │       └── after_tool_callbacks/
 │   │           └── after_tool_callbacks_01/python_code.py
-│   └── tools/                                 # Thin Setter & Action Tools
+│   └── tools/                                 # Thin Setter & Execution Tools
 │       ├── set_flavor/
 │       ├── set_quantity/
 │       ├── set_frosting/
@@ -43,7 +42,8 @@ This repository contains the complete **Cloud Bakery** example agent deployed in
 ## 🚀 Quick Start
 
 1. **Import & Test the Cloud Bakery CXAS Agent:**
-   See **[`cupcake_order_agent/README.md`](./cupcake_order_agent/README.md)** for instructions on importing the agent package into Google Cloud CX Agent Studio and trying the **3 interactive test cases** in the simulator.
+   - Compress the contents of `cupcake_order_agent/` (`app.json`, `agents/`, `tools/`, `pythonEnvFiles/`) into a `.zip` archive.
+   - Open the **[Google Cloud CX Agent Studio Console](https://ces.cloud.google.com/)**, click **Import App**, upload the `.zip` file, and launch the **Preview Agent** simulator to try the 3 interactive test cases below.
 
 2. **Read the Implementation & Migration Skill Documents:**
    These skill documents guide you through implementing and migrating slot-filling agents from CXAS generative agents or Dialogflow CX (DFCX) agents to deterministic agents. You can use them alongside AI pair-programming tools like Antigravity or GitHub Copilot to build your own deterministic slot-filling agents:
